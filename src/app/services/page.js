@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const page = () => {
   return (
-    <div>
+    <div className={`${styles.service}`}>
             <div className={`${styles.abt}`}>
               <h1>SERVICES</h1>
               <p>Looking for help with your next project? Here’s what I can do for you!</p>

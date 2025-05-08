@@ -23,9 +23,16 @@ const Navbar = () => {
         <h1><Image src='/home_images/gt_wh.png' width={20} height={20}  alt='logo'/></h1>
       </div>
       </div>
-      <div>
-        <Image src='/home_images/pic4.jpg' width={350} height={150} style={{marginTop:'30px'}} alt='pic'/>
-      </div>
+      <div style={{ marginTop: '30px', maxWidth: '100%' }}>
+  <Image
+    src="/home_images/pic4.jpg"
+    width={350}
+    height={150}
+    style={{ width: '100%', height: 'auto' }}
+    alt="pic"
+  />
+</div>
+
       </div>
       
     </div>

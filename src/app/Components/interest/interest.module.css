@@ -1,7 +1,29 @@
-.int{
+.int {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     font-weight: 900;
     font-size: 17px;
-}
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  /* Tablet (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .int {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      padding: 30px;
+    }
+  }
+  
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .int {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 20px;
+      font-size: 16px;
+    }
+  }
+  

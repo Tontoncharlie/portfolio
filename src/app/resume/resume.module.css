@@ -1,70 +1,208 @@
-.resume{
+/* General Styles */
+.resume {
+    padding-top: 50px;
     margin-bottom: 30px;
 }
 
-.abt{
+.abt {
     display: flex;
     flex-direction: column;
     color: white;
 }
-.abt h1{
+
+.abt h1 {
     font-size: 100px;
     font-weight: 900;
     padding: 0 100px;
     padding-top: 50px;
 }
-.abt p{
+
+.abt p {
     font-size: 30px;
     font-weight: 900;
     padding: 0 100px;
 }
 
-.navbar{
-    background-color:#333333;
+/* Navbar */
+.navbar {
+    background-color: #333333;
     display: flex;
     gap: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     padding: 20px;
 }
-.navbar h1:nth-child(1){
+
+.navbar h1:nth-child(1) {
     color: green;
 }
-.navbar h1:nth-child(1):hover{
+
+.navbar h1:nth-child(1):hover {
     cursor: pointer;
 }
-.navbar h1{
+
+.navbar h1 {
     color: white;
 }
-.hero{
+
+/* Hero Section */
+.hero {
     color: white;
     padding: 0 50px;
-    display: flex;;
+    display: flex;
+    flex-direction: column;
 }
-.circle{
+
+.hero .inhero1 {
+    width: 100%; /* Ensure it takes the full width of its container */
+}
+
+.circle {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: green;
 }
-.line{
+
+.line {
     width: 2px;
     height: 100%;
     background-color: green;
     margin-left: 10px;
     margin-top: 5px;
-
 }
-.summary{
+
+.summary {
     display: flex;
     gap: 15px;
 }
-.sum{
+
+.sum {
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-weight: 700;
 }
-.inhero1{
-    width: 1200px;
+
+/* Media Queries for Responsiveness */
+
+/* Large Screens (Desktop) */
+@media (min-width: 1200px) {
+    .abt h1 {
+        font-size: 100px;
+        padding: 0 100px;
+    }
+
+    .abt p {
+        font-size: 30px;
+        padding: 0 100px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        padding: 20px 50px;
+    }
+
+    .hero {
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .summary {
+        display: flex;
+        gap: 15px;
+    }
+
+    .sum {
+        gap: 20px;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .abt h1 {
+        font-size: 80px;
+        padding: 0 50px;
+    }
+
+    .abt p {
+        font-size: 24px;
+        padding: 0 50px;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .hero .inhero1 {
+        width: 100%;
+    }
+
+    .summary {
+        flex-direction: column;
+    }
+
+    .sum {
+        gap: 15px;
+    }
+
+    .circle {
+        width: 18px;
+        height: 18px;
+    }
+
+    .line {
+        height: 80%;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 767px) {
+    .abt h1 {
+        font-size: 50px;
+        padding: 0 20px;
+    }
+
+    .abt p {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero .inhero1 {
+        width: 100%;
+    }
+
+    .sum {
+        gap: 15px;
+    }
+
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .line {
+        height: 70%;
+    }
+
+    .summary {
+        flex-direction: column;
+    }
 }
