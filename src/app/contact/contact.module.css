@@ -1,0 +1,68 @@
+.contact{
+    margin-bottom: 30px;
+}
+
+.abt{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.abt h1{
+    font-size: 100px;
+    font-weight: 900;
+    padding: 0 100px;
+    padding-top: 50px;
+}
+.abt p{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 100px;
+}
+
+.navbar{
+    background-color:#333333;
+    display: flex;
+    gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding: 20px;
+}
+.navbar h1:nth-child(1){
+    color: green;
+}
+.navbar h1:nth-child(1):hover{
+    cursor: pointer;
+}
+.navbar h1{
+    color: white;
+}
+
+.icons{
+    color: white;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 100px;
+    padding: 100px 100px;
+}
+.isicon:hover{
+    filter: brightness(0) saturate(100%) invert(65%) sepia(81%) saturate(283%) hue-rotate(76deg) brightness(85%) contrast(86%);
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.icon h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.icon p{
+    font-weight: 700;
+}
+.sicon{
+    display: flex;
+    gap: 10px;
+}
+.sicon:hover{
+    cursor: pointer;
+}

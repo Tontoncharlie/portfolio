@@ -1,0 +1,70 @@
+.resume{
+    margin-bottom: 30px;
+}
+
+.abt{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.abt h1{
+    font-size: 100px;
+    font-weight: 900;
+    padding: 0 100px;
+    padding-top: 50px;
+}
+.abt p{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 100px;
+}
+
+.navbar{
+    background-color:#333333;
+    display: flex;
+    gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding: 20px;
+}
+.navbar h1:nth-child(1){
+    color: green;
+}
+.navbar h1:nth-child(1):hover{
+    cursor: pointer;
+}
+.navbar h1{
+    color: white;
+}
+.hero{
+    color: white;
+    padding: 0 50px;
+    display: flex;;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+.line{
+    width: 2px;
+    height: 100%;
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+.summary{
+    display: flex;
+    gap: 15px;
+}
+.sum{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 700;
+}
+.inhero1{
+    width: 1200px;
+}

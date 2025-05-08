@@ -1,0 +1,30 @@
+.input{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 20px;
+    padding: 0 100px;
+}
+.in1{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.in1 input{
+    width: 50%;
+}
+.place::placeholder{
+    font-weight: 500;
+    font-size: 15px;
+}
+.place{
+    padding-left: 20px;
+    border: 2px solid #333333;
+}
+.place:focus{
+    border: 1px solid green;
+    outline: green;
+}
+
+@media screen {
+    
+}
