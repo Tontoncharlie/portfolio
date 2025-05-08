@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import styles from './Skills.module.css';
+import styles from './skills.module.css';
 
 const skills = [
   { name: 'HTML', level: 95 },
