@@ -1,5 +1,5 @@
 .footer {
-    /* background-color: #111; */
+    background-color: #111;
     color: white;
     padding: 20px 30px;
     display: flex;
@@ -7,8 +7,6 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-    /* width: 100vw; */
-    background-color: red;
   }
   
   .footer h1 {
