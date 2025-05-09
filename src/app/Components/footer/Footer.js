@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <div className={`${styles.footer}`}>
-      <h1>Portfolio</h1>
+      <h1><Image src="/home_images/Tonton.png" width={150} height={50}  alt="pic"/></h1>
       <h2>Thanks for stopping by — let’s create something great!.</h2>
       <div className={`${styles.logos}`}>
         <Image src='/home_images/x_bl.png' width={40} height={40}  alt='logo' className={`${styles.logo}`} />

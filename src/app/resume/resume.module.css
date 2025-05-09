@@ -1,6 +1,6 @@
 /* General Styles */
 .resume {
-    padding-top: 50px;
+    padding-top: 80px;
     margin-bottom: 30px;
 }
 
@@ -199,10 +199,10 @@
     }
 
     .line {
-        height: 70%;
+        height: 90%;
     }
 
     .summary {
-        flex-direction: column;
+        display: flex;
     }
 }

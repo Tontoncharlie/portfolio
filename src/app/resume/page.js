@@ -63,7 +63,7 @@ const page = () => {
                 <h1 style={{fontSize:'20px', color:'green'}}>* FULL STACK WEB DEVELOPMENT</h1>
                 <h1>2024 - Present</h1>
                 <p>Loctech IT Training Institute, River State, Nigeria</p>
-                <p>Trained in building responsive websites and web apps using modern frontend and backend tools  from HTML, CSS, and JavaScript to frameworks like React and Node.js.</p>
+                <p>Trained in building responsive websites and web apps using modern frontend and backend tools  from HTML, CSS,JavaScript and Python to frameworks like React,Node.js and Django.</p>
 
                 <h1 style={{fontSize:'20px', color:'green'}}>* CYBERSECURITY AND ETHICAL HACKING</h1>
                 <h1>2024 - Present</h1>

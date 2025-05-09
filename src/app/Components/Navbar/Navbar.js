@@ -3,13 +3,16 @@
 import React, { useState } from 'react';
 import styles from './navbar.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>TONTON</div>
+      <div className={styles.logo}>
+        <Image src="/home_images/Tonton.png" width={150} height={50}  alt="pic"/>
+      </div>
 
       <div
         className={styles.hamburger}

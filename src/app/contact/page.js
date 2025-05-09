@@ -23,7 +23,7 @@ const page = () => {
           <Image src="/home_images/location.png" width={60} height={60} style={{backgroundColor:'green',borderRadius:'50px',padding:'10px'}} alt="pic"/>
           <div>
             <h1>Address</h1>
-            <p>Psychatric Hospital Road, River state, Nideria</p>
+            <p>Psychatric Hospital Road, River state, Nigeria</p>
           </div>
         </div>
         <div className={`${styles.icon}`}>

@@ -29,11 +29,11 @@ const page = () => {
         <div className={`${styles.info}`}>
       <div style={{display:'flex', gap:'10px'}}>
       <Image src="/home_images/right.png" width={20} height={30} alt="pic"/>
-      <h1>Birthday: 18 November 1998</h1>
+      <h1>Birthday: 18 November 1996</h1>
       </div>
-      <div style={{display:'flex', gap:'10px'}}>
+      <div style={{display:'flex', gap:'10px',alignItems:'flex-start'}}>
       <Image src="/home_images/right.png" width={20} height={30} alt="pic"/>
-      <h1>Languages: English / French / Spanish</h1>
+      <h1>Languages: English / French / Basic Spanish(actively studying)</h1>
       </div>
       <div style={{display:'flex', alignItems: 'flex-start', gap:'10px'}}>
       <Image src="/home_images/right.png" width={20} height={30} alt="pic"/>
