@@ -141,7 +141,6 @@
     .hero {
       flex-direction: column;
       padding: 20px;
-      margin-top: 80px; /* Reduced margin for mobile to ensure better space */
     }
   
     .hero .inhero {

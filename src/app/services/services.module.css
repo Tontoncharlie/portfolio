@@ -1,5 +1,5 @@
 .service {
-  padding: 50px;
+  padding: 50px 0;
   }
   
   .abt {
@@ -113,6 +113,7 @@
       align-items: flex-start;
       padding: 15px;
       gap: 10px;
+  
     }
   
     .hero {
