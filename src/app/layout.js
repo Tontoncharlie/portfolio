@@ -22,7 +22,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
+      <head>
+        <meta
+          name="google-site-verification"
+          content="your-verification-code"
+        />
+      </head>
+     <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>

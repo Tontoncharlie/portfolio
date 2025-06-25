@@ -5,8 +5,9 @@ import styles from './skills.module.css';
 const skills = [
   { name: 'HTML', level: 95 },
   { name: 'CSS', level: 85 },
-  { name: 'JAVASCRIPT', level: 60 },
-  { name: 'PYTHON', level: 10 },
+  { name: 'Tailwind CSS', level: 80 },
+  { name: 'Javascript', level: 60 },
+  { name: 'Python', level: 10 },
 ];
 
 const Skills = () => {
