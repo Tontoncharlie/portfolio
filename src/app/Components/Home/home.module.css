@@ -23,10 +23,10 @@
   
   .slider_con {
     width: 100%;
-    max-width: 400px;
+    max-width: 420px;
     overflow: hidden;
     white-space: nowrap;
-    border: 1px solid black;
+    border: 1px solid none;
   }
   
   .slider_text {
@@ -69,13 +69,13 @@
     padding: 10px 0;
   }
   
-  .logo h1 {
+  .logo a {
     padding: 10px;
     background-color: #333333;
     border-radius: 50px;
   }
   
-  .logo h1:hover {
+  .logo a:hover {
     background-color: green;
   }
   

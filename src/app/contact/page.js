@@ -30,7 +30,7 @@ const page = () => {
           <Image src="/home_images/call.png" width={60} height={60} style={{backgroundColor:'green',borderRadius:'50px',padding:'10px'}} alt="pic"/>
           <div>
             <h1>Call me</h1>
-            <p>+234 8116373426 / +234 9060272544 / +2348165507171
+            <p>+234 8116373426 / +234 9060272544 / +234 8165507171
             </p>
           </div>
         </div>
@@ -46,13 +46,13 @@ const page = () => {
           <div>
             <h1>Social Profiles</h1>
             <span className={`${styles.sicon}`}>
-                <Image src='/home_images/x_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/>
-                <Image src='/home_images/fb_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/>
-                <Image src='/home_images/in_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/>
+                <a href="https://x.com/Ugobest72212396" target='_blank'><Image src='/home_images/x_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/></a>
+                <a href="https://www.facebook.com/share/19Ry4zqZRe/" target='_blank'><Image src='/home_images/fb_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/></a>
+                <a href="https://www.instagram.com/le_ccu?igsh=eW1mYThmd3N6eTJo" target='_blank'><Image src='/home_images/in_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/></a>
                  <a href="https://www.linkedin.com/in/chigioke-charles-ugochukiou-3196281b7/" target='_blank'>
                  <Image src='/home_images/ln_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/>
                  </a>
-                <Image src='/home_images/gt_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/>
+                <a href="https://github.com/Tontoncharlie" target='_blank'><Image src='/home_images/gt_wh.png' width={40} height={40}  alt='logo' className={`${styles.isicon}`}/></a>
             </span>
           </div>
         </div>

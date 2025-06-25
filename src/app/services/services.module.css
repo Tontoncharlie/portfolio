@@ -62,6 +62,10 @@
     align-items: center;
     text-align: center;
   }
+
+  .inhero:hover{
+    border: 2px solid green;
+  }
   
   .inhero h1 {
     font-size: 30px;
@@ -94,6 +98,7 @@
     .inhero {
       height: auto;
     }
+
   }
   
   /* Mobile (below 768px) */

@@ -12,15 +12,15 @@ const Navbar = () => {
         <div className={`${styles.slider_con}`}>
             <div className={`${styles.slider_text}`}>
             <span className={`${styles.slides}`}>Full Stack Web Developer</span>
-            <span className={`${styles.slides}`}>Software Engineer</span>
+            <span className={`${styles.slides}`}>Ethical Hacker or Penetration Tester</span>
             </div>
         </div>
         <div className={`${styles.logo}`}>
-        <h1><Image src='/home_images/x_wh.png' width={20} height={20}  alt='logo'/></h1>
-        <h1><Image src='/home_images/fb_wh.png' width={20} height={20}  alt='logo'/></h1>
-        <h1><Image src='/home_images/in_wh.png' width={20} height={20}  alt='logo'/></h1>
-        <h1><Image src='/home_images/ln_wh.png' width={20} height={20}  alt='logo'/></h1>
-        <h1><Image src='/home_images/gt_wh.png' width={20} height={20}  alt='logo'/></h1>
+        <a href="https://x.com/Ugobest72212396" target='_blank'><Image src='/home_images/x_wh.png' width={20} height={20}  alt='logo'/></a>
+        <a href="https://www.facebook.com/share/19Ry4zqZRe/" target='_blank'><Image src='/home_images/fb_wh.png' width={20} height={20}  alt='logo'/></a>
+        <a href="https://www.instagram.com/le_ccu?igsh=eW1mYThmd3N6eTJo" target='_blank'><Image src='/home_images/in_wh.png' width={20} height={20}  alt='logo'/></a>
+        <a href="https://www.linkedin.com/in/chigioke-charles-ugochukiou-3196281b7/" target='_blank'><Image src='/home_images/ln_wh.png' width={20} height={20}  alt='logo'/></a>
+        <a href="https://github.com/Tontoncharlie" target='_blank'><Image src='/home_images/gt_wh.png' width={20} height={20}  alt='logo'/></a>
       </div>
       </div>
       <div style={{ marginTop: '30px', maxWidth: '100%' }}>
