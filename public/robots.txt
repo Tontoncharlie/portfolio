@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://portfolio-948u.vercel.app
+
+# Sitemaps
+Sitemap: https://portfolio-948u.vercel.app/sitemap.xml

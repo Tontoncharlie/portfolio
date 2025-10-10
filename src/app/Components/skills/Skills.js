@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 import styles from './skills.module.css';
 
 const skills = [
-  { name: 'HTML', level: 95 },
-  { name: 'CSS', level: 85 },
-  { name: 'Tailwind CSS', level: 80 },
-  { name: 'Javascript', level: 60 },
-  { name: 'Python', level: 10 },
+  { name: 'HTML', level: 100 },
+  { name: 'CSS', level: 98 },
+  { name: 'Tailwind CSS', level: 90 },
+  { name: 'Javascript', level: 90 },
+  { name: 'Python', level: 70 },
 ];
 
 const Skills = () => {
