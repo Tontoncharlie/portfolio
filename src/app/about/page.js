@@ -23,8 +23,8 @@ const page = () => {
           <h1><Image src='/home_images/pic7.jpg' width={600} height={600} style={{marginTop:'80px'}} alt='pic'/></h1>
         </div>
        <div className={`${styles.inhero}`}>
-        <h1 style={{fontWeight:'bolder', fontSize:'30px'}}>Full Stack Web Developer/ <span style={{color:'green'}}>Software Engineer</span>.</h1>
-        <p>Hey there! I'm a full stack web developer who loves turning ideas into clean, responsive, and user-friendly digital experiences.<br/> Whether it’s designing a sleek frontend or building a solid backend, I enjoy the challenge of bringing projects to life.<br/> I believe good code tells a story and I’m here to write it by solving real problems with simple solutions and learning something new every day.</p>
+        <h1 style={{fontWeight:'bolder', fontSize:'30px'}}>Full Stack Web Developer/ <span style={{color:'green'}}>Ethical Hacker</span>.</h1>
+        <p>Hey there! I'm a full stack web developer who loves turning ideas into clean, responsive,<br /> and user-friendly digital experiences. Whether it’s designing a sleek frontend or building a solid backend,<br /> I enjoy the challenge of bringing projects to life. <br /> I also apply ethical hacking and cybersecurity best practices to build secure, resilient applications. I believe good code tells a story and I’m here to write it by solving real problems with simple solutions and learning something new every day.</p>
        
         <div className={`${styles.info}`}>
       {/* <div style={{display:'flex', gap:'10px'}}>
