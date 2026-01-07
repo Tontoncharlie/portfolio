@@ -82,7 +82,7 @@ const page = () => {
             </div>
             <div className={`${styles.sum}`}>
                 <h1 style={{fontSize:'20px', color:'green'}}>* FULL STACK WEB DEV TUTOR</h1>
-                <h1>2025 - Presnt</h1>
+                <h1>2024 - Presnt</h1>
                 <p>LOCTECH IT TRAINING INSTITUTE, Rivers State, Nigeria</p>
                 <p>I’m a Full Stack Web Development Tutor dedicated to helping learners master both frontend and backend skills. I teach through hands-on projects, guiding students to build real-world web applications with confidence.</p>
             </div>

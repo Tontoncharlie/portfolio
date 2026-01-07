@@ -26,6 +26,7 @@
     font-weight: 900;
     padding: 20px;
     flex-wrap: wrap;
+    margin-bottom: 60px;
   }
   
   .navbar h1:nth-child(1) {

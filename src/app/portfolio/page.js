@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './portfolio.module.css';
 import Link from 'next/link';
+import Projects from '../Components/Projects';
 
 const page = () => {
   return (
@@ -15,6 +16,8 @@ const page = () => {
        <h1>/</h1>
        <h1>PORTFOLIO</h1>
        </div>
+
+       <Projects/>
 
     </div>
   );
