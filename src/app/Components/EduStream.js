@@ -1,15 +1,15 @@
 import ProjectCard from "./ProjectCard";
 
 const images = [
-  "/project-images/project.1-1.png",
-  "/project-images/project.1-2.png",
-  "/project-images/project.1-3.png",
-  "/project-images/project.1-4.png",
-  "/project-images/project.1-5.png",
-  "/project-images/project.1-6.png",
+  "/project-images/edustream/edustream-1.png",
+  "/project-images/edustream/edustream-2.png",
+  "/project-images/edustream/edustream-3.png",
+  "/project-images/edustream/edustream-4.png",
+  "/project-images/edustream/edustream-5.png",
+  "/project-images/edustream/edustream-6.png",
 ];
 
-export default function Projects() {
+export default function EduStream() {
   return (
     <div className="projects-container text-white">
       <ProjectCard

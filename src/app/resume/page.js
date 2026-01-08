@@ -8,7 +8,7 @@ const page = () => {
       
       <div className={`${styles.abt}`}>
         <h1>RESUME</h1>
-        <p>My journey in a nutshell — skills, roles, and what i have learned along the way.</p>
+        <p>My journey in a nutshell skills, roles, and what i have learned along the way.</p>
       </div>
       <div className={`${styles.navbar}`}>
        <Link href='/'><h1>HOME</h1></Link>

@@ -10,7 +10,7 @@ const page = () => {
       
       <div className={`${styles.abt}`}>
         <h1>CONTACT</h1>
-        <p>Got a question or want to collaborate? Feel free to reach out — I’d love to hear from you!</p>
+        <p>Got a question or want to collaborate? Feel free to reach out I’d love to hear from you!</p>
       </div>
        <div className={`${styles.navbar}`}>
        <Link href='/'><h1>HOME</h1></Link>
