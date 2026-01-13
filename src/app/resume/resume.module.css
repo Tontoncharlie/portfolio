@@ -11,16 +11,18 @@
 }
 
 .abt h1 {
-    font-size: 100px;
+    font-size: clamp(2.5rem, 8vw, 100px);
     font-weight: 900;
-    padding: 0 100px;
+    padding: 0 clamp(20px, 5vw, 100px);
     padding-top: 50px;
+    word-wrap: break-word;
 }
 
 .abt p {
-    font-size: 30px;
+    font-size: clamp(1rem, 3vw, 30px);
     font-weight: 900;
-    padding: 0 100px;
+    padding: 0 clamp(20px, 5vw, 100px);
+    line-height: 1.4;
 }
 
 /* Navbar */
@@ -31,6 +33,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     padding: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .navbar h1:nth-child(1) {
@@ -41,21 +49,22 @@
     cursor: pointer;
 }
 
-.navbar h1 {
-    color: white;
-}
-
 /* Hero Section */
 .hero {
     color: white;
-    padding: 0 50px;
+    padding: 0 clamp(20px, 5vw, 50px);
     display: flex;
-    gap: 170px;
-    /* flex-direction: column; */
+    gap: clamp(30px, 10vw, 170px);
+    flex-wrap: wrap;
+}
+
+.hero > div {
+    flex: 1 1 450px;
+    min-width: 0;
 }
 
 .hero .inhero1 {
-    width: 100%; /* Ensure it takes the full width of its container */
+    width: 100%;
 }
 
 .circle {
@@ -63,6 +72,7 @@
     height: 20px;
     border-radius: 50%;
     background-color: green;
+    flex-shrink: 0;
 }
 
 .line {
@@ -85,13 +95,210 @@
     font-weight: 700;
 }
 
+.sum h1 {
+    font-size: clamp(1rem, 2.5vw, 20px) !important;
+    word-wrap: break-word;
+}
+
+.sum p {
+    font-size: clamp(0.875rem, 2vw, 1rem);
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+/* Section headings (inline styled h1s) */
+.inhero1 h1[style*="30px"],
+.hero h1[style*="30px"] {
+    font-size: clamp(1.25rem, 4vw, 30px) !important;
+}
+
 /* Media Queries for Responsiveness */
 
-/* Large Screens (Desktop) */
+/* Extra Small Screens (Small Mobile) */
+@media (max-width: 480px) {
+    .resume {
+        padding-top: 60px;
+    }
+
+    .abt h1 {
+        font-size: 2rem;
+        padding: 0 15px;
+        padding-top: 30px;
+    }
+
+    .abt p {
+        font-size: 0.95rem;
+        padding: 0 15px;
+    }
+
+    .navbar {
+        padding: 12px 15px;
+        gap: 8px;
+    }
+
+    .navbar h1 {
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding: 15px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero > div {
+        flex: 1 1 100%;
+    }
+
+    .circle {
+        width: 14px;
+        height: 14px;
+    }
+
+    .line {
+        margin-left: 6px;
+    }
+
+    .summary {
+        gap: 10px;
+    }
+
+    .sum {
+        gap: 12px;
+    }
+
+    .sum h1 {
+        font-size: 1rem !important;
+    }
+
+    .sum p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .abt h1 {
+        font-size: 2.5rem;
+        padding: 0 20px;
+        padding-top: 40px;
+    }
+
+    .abt p {
+        font-size: 1.1rem;
+        padding: 0 20px;
+    }
+
+    .navbar {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .navbar h1 {
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding: 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .hero > div {
+        flex: 1 1 100%;
+    }
+
+    .circle {
+        width: 16px;
+        height: 16px;
+    }
+
+    .sum {
+        gap: 15px;
+    }
+
+    .sum h1 {
+        font-size: 1.1rem !important;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .abt h1 {
+        font-size: 4rem;
+        padding: 0 40px;
+        padding-top: 50px;
+    }
+
+    .abt p {
+        font-size: 1.3rem;
+        padding: 0 40px;
+    }
+
+    .navbar {
+        padding: 20px 30px;
+    }
+
+    .navbar h1 {
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        padding: 30px;
+        gap: 60px;
+    }
+
+    .hero > div {
+        flex: 1 1 400px;
+    }
+
+    .circle {
+        width: 18px;
+        height: 18px;
+    }
+
+    .sum {
+        gap: 18px;
+    }
+
+    .sum h1 {
+        font-size: 1.15rem !important;
+    }
+}
+
+/* Large Screens (Small Desktop) */
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .abt h1 {
+        font-size: 5rem;
+        padding: 0 70px;
+        padding-top: 50px;
+    }
+
+    .abt p {
+        font-size: 1.5rem;
+        padding: 0 70px;
+    }
+
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .hero {
+        padding: 40px;
+        gap: 100px;
+    }
+
+    .hero > div {
+        flex: 1 1 450px;
+    }
+}
+
+/* Extra Large Screens (Desktop) */
 @media (min-width: 1200px) {
     .abt h1 {
         font-size: 100px;
         padding: 0 100px;
+        padding-top: 50px;
     }
 
     .abt p {
@@ -100,110 +307,19 @@
     }
 
     .navbar {
-        flex-direction: row;
         padding: 20px 50px;
     }
 
     .hero {
         padding: 50px;
-        display: flex;
-        flex-direction: row;
+        gap: 170px;
     }
 
-    .summary {
-        display: flex;
-        gap: 15px;
+    .hero > div {
+        flex: 1 1 450px;
     }
 
-    .sum {
-        gap: 20px;
-    }
-}
-
-/* Medium Screens (Tablets) */
-@media (max-width: 1199px) and (min-width: 768px) {
-    .abt h1 {
-        font-size: 80px;
-        padding: 0 50px;
-    }
-
-    .abt p {
-        font-size: 24px;
-        padding: 0 50px;
-    }
-
-    .navbar {
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .hero {
-        padding: 30px;
-    }
-
-    .hero .inhero1 {
-        width: 100%;
-    }
-
-    .summary {
-        flex-direction: column;
-    }
-
-    .sum {
-        gap: 15px;
-    }
-
-    .circle {
-        width: 18px;
-        height: 18px;
-    }
-
-    .line {
-        height: 80%;
-    }
-}
-
-/* Small Screens (Mobile) */
-@media (max-width: 767px) {
-    .abt h1 {
-        font-size: 50px;
-        padding: 0 20px;
-    }
-
-    .abt p {
-        font-size: 20px;
-        padding: 0 20px;
-    }
-
-    .navbar {
-        display: flex;
-        gap: 20px;
-        padding: 15px;
-    }
-
-    .hero {
-        padding: 20px;
-    }
-
-    .hero .inhero1 {
-        width: 100%;
-    }
-
-    .sum {
-        gap: 15px;
-    }
-
-    .circle {
-        width: 15px;
-        height: 15px;
-    }
-
-    .line {
-        height: 90%;
-    }
-
-    .summary {
-        display: flex;
+    .sum h1 {
+        font-size: 1.25rem !important;
     }
 }
