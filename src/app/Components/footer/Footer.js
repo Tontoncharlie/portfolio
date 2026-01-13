@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={`${styles.footer}`}>
       <h1><Image src="/home_images/Tonton.png" width={150} height={50}  alt="pic"/></h1>
-      <h2>Thanks for stopping by — let’s create something great!.</h2>
+      <h2>Thanks for stopping by let’s create something great!.</h2>
       <div className={`${styles.logos}`}>
         <a href="https://x.com/Ugobest72212396" target='_blank'><Image src='/home_images/x_bl.png' width={40} height={40}  alt='logo' className={`${styles.logo}`} /></a>
         <a href="https://www.facebook.com/share/19Ry4zqZRe/" target='_blank'><Image src='/home_images/fb_bl.png' width={40} height={40}  alt='logo' className={`${styles.logo}`} /></a>
