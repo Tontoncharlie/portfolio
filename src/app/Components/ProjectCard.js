@@ -100,7 +100,7 @@ export default function ProjectCard({ title, description, images, link }) {
 
       <style jsx>{`
         .project-card {
-          width: 400px;
+          width: 350pxpx;
           margin: 20px;
           border-radius: 12px;
           box-shadow: 0 5px 15px rgba(0,0,0,0.1);

@@ -3,6 +3,7 @@ import styles from './portfolio.module.css';
 import Link from 'next/link';
 import EduStream from '../Components/EduStream';
 import Inventa from '../Components/Inventa';
+import Velocity from '../Components/Velocity';
 
 const page = () => {
   return (
@@ -17,9 +18,10 @@ const page = () => {
         <h1>/</h1>
         <h1>PORTFOLIO</h1>
       </div>
-      <div className='flex flex-col sm:flex-row'>
+      <div className='flex flex-col mx-8 sm:flex-row'>
         <Inventa />
         <EduStream />
+        <Velocity/>
       </div>
     </div>
   );
