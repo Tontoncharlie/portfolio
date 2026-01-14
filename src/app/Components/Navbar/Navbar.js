@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link href="/about"><h1 tabIndex={0} onClick={() => {setIsOpen(!isOpen)}}>ABOUT</h1></Link>
         <Link href="/resume"><h1 tabIndex={0} onClick={() => {setIsOpen(!isOpen)}}>RESUME</h1></Link>
         <Link href="/services"><h1 tabIndex={0} onClick={() => {setIsOpen(!isOpen)}}>SERVICES</h1></Link>
-        <Link href="/portfolio"><h1 tabIndex={0} onClick={() => {setIsOpen(!isOpen)}}>PORTFOLIO</h1></Link>
+        <Link href="/portfolio"><h1 tabIndex={0} onClick={() => {setIsOpen(!isOpen)}}>PROJECTS</h1></Link>
         <Link href="/contact"><h1 tabIndex={0} onClick={() => {setIsOpen(!isOpen)}}>CONTACT</h1></Link>
       </div>
     </nav>
