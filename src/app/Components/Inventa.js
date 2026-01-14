@@ -20,7 +20,7 @@ export default function Inventa() {
     return (
         <div className="projects-container text-white">
             <ProjectCard
-                title="Inventa"
+                title="Inventa-Inventory app"
                 description="Inventa is a web-based inventory management application designed to help businesses track products, manage stock levels, and monitor inventory activities efficiently."
                 images={images}
                 link="https://inventa-lrc3.vercel.app/"

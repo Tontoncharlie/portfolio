@@ -4,6 +4,7 @@ import Link from 'next/link';
 import EduStream from '../Components/EduStream';
 import Inventa from '../Components/Inventa';
 import Velocity from '../Components/Velocity';
+import Staffly from '../Components/staffly';
 
 const page = () => {
   return (
@@ -18,10 +19,12 @@ const page = () => {
         <h1>/</h1>
         <h1>PORTFOLIO</h1>
       </div>
-      <div className='flex flex-col mx-8 sm:flex-row'>
+      <div className='grid grid-cols-3 mx-8 sm:flex-row'>
         <Inventa />
-        <EduStream />
         <Velocity/>
+        <Staffly/>
+        <EduStream />
+        
       </div>
     </div>
   );
