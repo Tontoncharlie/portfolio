@@ -4,7 +4,7 @@ import Link from 'next/link';
 import EduStream from '../Components/EduStream';
 import Inventa from '../Components/Inventa';
 import Velocity from '../Components/Velocity';
-import Staffly from '../Components/staffly';
+import Staffly from '../Components/Staffly';
 
 const page = () => {
   return (
