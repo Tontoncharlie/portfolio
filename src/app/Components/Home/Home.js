@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         <div style={{ marginTop: '30px', maxWidth: '100%' }}>
           <Image
-            src="/home_images/pic4.jpg"
+            src="/home_images/new-pic.jpeg"
             width={350}
             height={150}
             style={{ width: '100%', height: 'auto' }}
