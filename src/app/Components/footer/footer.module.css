@@ -30,7 +30,7 @@
   }
   
   .logo {
-    background-color: green;
+    background-color: #4caf50;
     padding: 10px;
     border-radius: 50%;
     transition: background-color 0.3s;
@@ -38,7 +38,7 @@
   
   .logo:hover {
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: #43a047;
   }
   
   .line {
@@ -54,7 +54,7 @@
   }
   
   .copyright span {
-    color: green;
+    color: #4caf50;
   }
   
   /* Medium devices (tablets, 600px and up) */

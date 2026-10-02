@@ -18,10 +18,12 @@ export default function Staffly() {
     return (
         <div className="projects-container text-white">
             <ProjectCard
-                title="Staffly-User-Management-System"
+                title="Staffly User Management"
                 description="Staffly - A full-stack user management system built with Django, featuring role-based access control, premium UI with Tailwind CSS, and secure authentication. Deployed on Render with PostgreSQL."
                 images={images}
                 link="https://staffly-user-management-system-1.onrender.com/accounts/login/"
+                github="https://github.com/Tontoncharlie/Staffly-User-management-system"
+                tags={["Django", "Python", "Tailwind CSS", "PostgreSQL"]}
             />
         </div>
     );

@@ -39,7 +39,7 @@
     padding: 10px;
     text-align: center;
     background-color: transparent;
-    color: green;
+    color: #4caf50;
     font-size: 1.5rem;
     font-weight: bold;
   }
@@ -76,7 +76,7 @@
   }
   
   .logo a:hover {
-    background-color: green;
+    background-color: #4caf50;
   }
   
   /* Responsive Breakpoints */

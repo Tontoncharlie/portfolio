@@ -13,10 +13,12 @@ export default function EduStream() {
   return (
     <div className="projects-container text-white">
       <ProjectCard
-        title="EduStream-Management dashboard"
+        title="EduStream Dashboard"
         description="A responsive student management dashboard UI built with Next.js and Tailwind CSS, featuring dark mode, mobile-friendly navigation, and modern admin layout."
         images={images}
         link="https://edustream-sigma.vercel.app/"
+        github="https://github.com/Tontoncharlie/Edustream"
+        tags={["Next.js", "React", "Tailwind CSS", "Dashboard UI"]}
       />
     </div>
   );

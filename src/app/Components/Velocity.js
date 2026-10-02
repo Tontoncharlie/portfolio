@@ -15,10 +15,12 @@ export default function Velocity() {
     return (
         <div className="projects-container text-white">
             <ProjectCard
-                title="Velocity-SaaS Subscription"
-                description="Velocity SaaS is a full-stack subscription platform for user signups, tiered plans (Free, Pro, Enterprise), and secure payments. Built with Next.js 14, Supabase, PostgreSQL, and Paystack, it features a responsive glassmorphism UI with dark mode and smooth animations."
+                title="Velocity SaaS Subscription"
+                description="Velocity SaaS is a full-stack subscription platform for user signups, tiered plans (Free, Pro, Enterprise), and secure payments. Built with Next.js 14, Supabase, PostgreSQL, and Paystack, it features a responsive glassmorphism UI with dark mode."
                 images={images}
                 link="https://velocity-saa-s-subscription-7nhss1j1v-tontoncharlies-projects.vercel.app/"
+                github="https://github.com/Tontoncharlie/Velocity-SaaS-subscription"
+                tags={["Next.js 14", "Supabase", "Paystack", "PostgreSQL"]}
             />
         </div>
     );
