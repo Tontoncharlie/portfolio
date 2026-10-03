@@ -138,18 +138,6 @@ export default function ProjectCard({ title, description, images = [], link, git
             </button>
 
             <div className="flex items-center gap-2">
-              {github && (
-                <a
-                  href={github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition-all duration-200"
-                >
-                  <span>GitHub</span>
-                </a>
-              )}
-
               {link && (
                 <a
                   href={link}
@@ -232,16 +220,6 @@ export default function ProjectCard({ title, description, images = [], link, git
               >
                 Close
               </button>
-              {github && (
-                <a
-                  href={github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 text-sm font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition-all inline-flex items-center gap-2"
-                >
-                  <span>GitHub Repository</span>
-                </a>
-              )}
               {link && (
                 <a
                   href={link}
