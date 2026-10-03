@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://portfolio-948u.vercel.app
+Host: https://tonton-charlie.name.ng
 
 # Sitemaps
-Sitemap: https://portfolio-948u.vercel.app/sitemap.xml
+Sitemap: https://tonton-charlie.name.ng/sitemap.xml

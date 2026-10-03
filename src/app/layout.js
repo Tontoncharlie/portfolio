@@ -15,10 +15,22 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Tonton's Portfolio",
-  description: "Portfolio of Chigioke Charles",
+  metadataBase: new URL("https://tonton-charlie.name.ng"),
+  title: "Tonton | Web Developer Portfolio",
+  description: "Welcome to the portfolio of Tonton, a passionate full stack developer skilled in React, Next.js, and Tailwind CSS.",
+  alternates: {
+    canonical: "/",
+  },
   icons: {
-    icon: "/favicon.png", // <-- your custom icon
+    icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "Tonton | Web Developer Portfolio",
+    description: "Welcome to the portfolio of Tonton, a passionate full stack developer skilled in React, Next.js, and Tailwind CSS.",
+    url: "https://tonton-charlie.name.ng",
+    siteName: "Tonton Portfolio",
+    locale: "en_US",
+    type: "website",
   },
 };
 
