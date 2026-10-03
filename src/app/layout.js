@@ -22,13 +22,25 @@ export const metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "Tonton | Web Developer Portfolio",
     description: "Welcome to the portfolio of Tonton, a passionate full stack developer skilled in React, Next.js, and Tailwind CSS.",
     url: "https://tonton-charlie.name.ng",
     siteName: "Tonton Portfolio",
+    images: [
+      {
+        url: "/favicon.png",
+        width: 512,
+        height: 512,
+        alt: "Tonton Logo",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
