@@ -53,6 +53,20 @@ export default function RootLayout({ children }) {
         <meta
            name="google-site-verification"
             content="UelCrGoq7hIpQmIlGK39d6kNxfP1T8cK1qNENMC2k_g" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Tonton",
+              "alternateName": ["Tonton Charlie", "Ugochukwu Charles"],
+              "url": "https://tonton-charlie.name.ng",
+              "jobTitle": "Full Stack Web Developer",
+              "knowsAbout": ["React", "Next.js", "Tailwind CSS", "JavaScript", "Web Development"],
+            }),
+          }}
+        />
       </head>
      <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
